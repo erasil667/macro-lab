@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>МакроЛаб — изучай экономику</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top"><span>М</span>акроЛаб</a>
+    <nav aria-label="Основная навигация">
+      <a href="#lessons">Уроки</a>
+      <a href="#video">Видео</a>
+      <a href="#simulator">Симулятор</a>
+      <a href="#quiz">Квиз</a>
+    </nav>
+    <a class="header-cta" href="#lessons">Начать учиться <span>→</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Макроэкономика без скуки</p>
+        <h1>Пойми, как <em>движется</em> экономика.</h1>
+        <p class="lead">Короткие уроки, интерактивные модели и примеры из реальной жизни — чтобы уверенно читать новости, а не просто запоминать термины.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#lessons">Выбрать урок <span>→</span></a>
+          <a class="button quiet" href="#simulator">Попробовать модель</a>
+        </div>
+        <div class="trust"><span class="avatars">● ● ●</span><span>Создано для любознательных<br><strong>без экономического бэкграунда</strong></span></div>
+      </div>
+      <div class="hero-art" aria-label="Иллюстрация взаимосвязи ключевых макроэкономических показателей">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="sun">%</div>
+        <div class="planet planet-a"><b>ВВП</b><small>рост</small></div>
+        <div class="planet planet-b"><b>π</b><small>инфляция</small></div>
+        <div class="planet planet-c"><b>↗</b><small>ставка</small></div>
+        <div class="float-card card-growth"><span>Экономика</span><strong>+2.4%</strong><i>▲ за год</i></div>
+        <div class="float-card card-price"><span>Индекс цен</span><strong>108.2</strong><i>умеренный рост</i></div>
+        <div class="spark one"></div><div class="spark two"></div><div class="spark three"></div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Ключевые вопросы">
+      <span>Что двигает цены?</span><i></i><span>Почему меняется курс?</span><i></i><span>Как работает ставка?</span><i></i><span>Что такое рецессия?</span><i></i>
+    </section>
+
+    <section class="video-section section" id="video">
+      <div class="section-heading"><div><p class="eyebrow">Видеоразбор</p><h2>Макроэкономика<br>в одном видео</h2></div><p>Для тех, кому проще сначала увидеть общую картину, а затем переходить к практическим урокам.</p></div>
+      <div class="video-layout">
+        <div><div class="video-frame"><iframe src="https://www.youtube-nocookie.com/embed/Gxkv9XGMuss" title="Макроэкономика: ВВП, инфляция и экономический цикл" loading="lazy" allowfullscreen></iframe></div><p><a href="https://www.youtube.com/watch?v=Gxkv9XGMuss" target="_blank" rel="noopener">Не запускается в окне? Смотреть на YouTube ↗</a></p></div>
+        <aside class="video-notes"><span class="lesson-num">В ЧЁМ ПОЛЬЗА</span><h3>Смотри с вопросами</h3><ol><li>Как измеряют размер экономики?</li><li>Что разгоняет инфляцию?</li><li>Как связаны ставка и цикл?</li></ol><a class="button quiet" href="#simulator">Закрепить в симуляторе <span>→</span></a></aside>
+      </div>
+    </section>
+
+    <section class="lessons section" id="lessons">
+      <div class="section-heading"><div><p class="eyebrow">Стартовый маршрут</p><h2>Начни с главного</h2></div><p>Четыре идеи, через которые видно почти всю макроэкономику.</p></div>
+      <div class="lesson-grid">
+        <article class="lesson coral"><span class="lesson-num">01</span><div class="lesson-icon">↗</div><h3>Рост и ВВП</h3><p>Как измеряют экономику страны и почему рост — не всегда хорошая новость.</p><a href="#simulator">12 мин <span>→</span></a></article>
+        <article class="lesson lime"><span class="lesson-num">02</span><div class="lesson-icon">π</div><h3>Инфляция</h3><p>Откуда берётся рост цен и как центральный банк пытается его замедлить.</p><a href="#simulator">15 мин <span>→</span></a></article>
+        <article class="lesson blue"><span class="lesson-num">03</span><div class="lesson-icon">%</div><h3>Процентная ставка</h3><p>Почему одно решение регулятора влияет на кредиты, вклады и бизнес.</p><a href="#simulator">10 мин <span>→</span></a></article>
+        <article class="lesson yellow"><span class="lesson-num">04</span><div class="lesson-icon">◎</div><h3>Циклы</h3><p>Бум, замедление, рецессия: учимся видеть фазу экономики в данных.</p><a href="#quiz">14 мин <span>→</span></a></article>
+      </div>
+    </section>
+
+    <section class="topics section" id="topics">
+      <div class="section-heading"><div><p class="eyebrow">Полная карта</p><h2>Что ещё важно<br>в макроэкономике</h2></div><p>Эти темы связывают решения государства, жизнь бизнеса и личные финансы.</p></div>
+      <div class="topic-grid">
+        <article><span class="topic-mark orange">⌁</span><h3>Рынок труда</h3><p>Безработица, зарплаты и производительность: почему «много вакансий» не всегда означает здоровую экономику.</p><div class="topic-tags"><span>безработица</span><span>доходы</span></div></article>
+        <article><span class="topic-mark mint">₸</span><h3>Валюта и курс</h3><p>Почему валюта укрепляется или слабеет, как курс влияет на импорт, экспорт и цены в магазинах.</p><div class="topic-tags"><span>курс</span><span>торговля</span></div></article>
+        <article><span class="topic-mark purple">▦</span><h3>Бюджет государства</h3><p>Налоги, расходы и дефицит: когда госрасходы поддерживают экономику, а когда создают риски.</p><div class="topic-tags"><span>налоги</span><span>дефицит</span></div></article>
+        <article><span class="topic-mark blue-light">⇄</span><h3>Внешняя торговля</h3><p>Экспорт, импорт и платёжный баланс: как мир помогает экономике расти — и делает её уязвимой.</p><div class="topic-tags"><span>экспорт</span><span>импорт</span></div></article>
+      </div>
+    </section>
+
+    <section class="simulator section" id="simulator">
+      <div class="sim-copy"><p class="eyebrow">Сыграй роль центробанка</p><h2>Ставка — это<br><em>рычаг</em>, а не магия.</h2><p>Повышая ставку, регулятор охлаждает спрос и инфляцию. Но слишком резкое решение может замедлить рост. Подвигай ползунок и посмотри на компромисс.</p><div class="rate-control"><label for="rate">Ключевая ставка <output id="rate-value">8.0%</output></label><input id="rate" type="range" min="3" max="16" value="8" step="0.5" /><div class="range-labels"><span>3%</span><span>16%</span></div></div></div>
+      <div class="sim-panel">
+        <div class="chart-head"><div><span>Твоя экономика</span><strong id="summary">мягкое замедление</strong></div><span class="live-dot">LIVE</span></div>
+        <div class="metrics"><div><span>Инфляция</span><b id="inflation">5.8%</b><small id="inflation-note">ещё выше цели</small></div><div><span>Рост ВВП</span><b id="gdp">2.3%</b><small id="gdp-note">устойчивый</small></div></div>
+        <div class="chart-wrap"><div class="chart-labels"><span>рост цен</span><span>рост ВВП</span></div><svg viewBox="0 0 500 230" role="img" aria-label="График инфляции и роста ВВП"><path class="gridline" d="M20 30H480M20 80H480M20 130H480M20 180H480"/><path id="line-inflation" class="line inflation-line" d="M20 70 C100 55, 130 90, 200 105 S340 125, 480 160"/><path id="line-gdp" class="line gdp-line" d="M20 165 C110 150, 170 125, 240 132 S365 115,480 105"/><circle id="inflation-dot" class="dot inflation-fill" cx="480" cy="160" r="6"/><circle id="gdp-dot" class="dot gdp-fill" cx="480" cy="105" r="6"/></svg></div>
+        <p id="sim-explanation" class="sim-explanation">Ставка выше нейтральной: цены остывают, а рост остаётся положительным.</p>
+      </div>
+    </section>
+
+    <section class="quiz section" id="quiz">
+      <div class="quiz-card"><div class="quiz-top"><span class="pill">Быстрый квиз · 1 из 3</span><span class="progress-text" id="progress-text">0 / 3</span></div><h2 id="question">Что обычно происходит с потребительскими кредитами, когда центральный банк повышает ставку?</h2><div class="answers" id="answers"><button data-correct="false">Они становятся дешевле</button><button data-correct="true">Они обычно дорожают</button><button data-correct="false">Ничего не меняется</button></div><p class="feedback" id="feedback" aria-live="polite"></p><button class="button primary next" id="next" hidden>Следующий вопрос <span>→</span></button></div>
+      <div class="quiz-side"><p class="eyebrow">Проверь интуицию</p><h2>Экономика —<br>это связи.</h2><p>Не нужно помнить всё. Важно замечать, как одно решение запускает цепочку изменений.</p><div class="mini-chain"><span>Ставка</span><b>→</b><span>Кредиты</span><b>→</b><span>Спрос</span><b>→</b><span>Цены</span></div><a class="topics-link" href="#topics">Открыть карту тем <span>↓</span></a></div>
+    </section>
+  </main>
+  <footer><a class="brand" href="#top"><span>М</span>акроЛаб</a><span>Учись видеть экономику вокруг себя</span><a href="#top">Наверх ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
